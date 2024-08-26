@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Expense Tracker Application</title>
+    <style>
+        /* Basic styling for better readability */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        table, th, td {
+            border: 1px solid #ddd;
+        }
+        th, td {
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+        form {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Expense Tracker Application</h1>
+    </header>
+    
+    <h2>Welcome to the Expense Tracker</h2>
+    
+    <p>Use this application to track your expenses efficiently. Fill out the registration form below to get started.</p>
+    
+    <form action="#" method="post">
+        <fieldset>
+            <legend>Registration Form</legend>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required><br><br>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br><br>
+            
+            <label for="phone">Phone Number:</label>
+            <input type="tel" id="phone" name="phone" required><br><br>
+            
+            <input type="submit" value="Register">
+        </fieldset>
+    </form>
+    
+    <h2>User Information</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Email</th>
+                <th>Phone Number</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>John Doe</td>
+                <td>john.doe@example.com</td>
+                <td>(555) 123-4567</td>
+            </tr>
+            <tr>
+                <td>Jane Smith</td>
+                <td>jane.smith@example.com</td>
+                <td>(555) 987-6543</td>
+            </tr>
+        </tbody>
+    </table>
+    
+    <img src="path/to/image.jpg" alt="Expense Tracker Image" width="300">
+    
+    <p>For more information, visit <a href="https://google.com" target="_blank">Google</a>.</p>
+</body>
+</html>
